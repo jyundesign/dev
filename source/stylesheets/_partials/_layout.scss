@@ -16,12 +16,33 @@
 
 /* #Site Styles
 ================================================== */
+a{
+	
+	text-decoration: none;
+}
 
+li
+{
+	display:inline;
+	
+}
 
+.gi{
+	color: $orange;
+}
 
+.a{
+	color: $red;
+}
+
+.c{
+	color: $brown;
+}
 
 /* #Page Styles
 ================================================== */
+
+
 h1{
 	text-align: center;
 	font-size: 6.25em;
