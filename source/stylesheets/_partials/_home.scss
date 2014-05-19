@@ -1,0 +1,104 @@
+
+@mixin transition($time){
+	-webkit-transition: all $time ease-in-out;
+-moz-transition: all $time ease-in-out;
+-ms-transition: all $time ease-in-out;
+-o-transition: all $time ease-in-out;
+transition: all $time ease-in-out;
+}
+
+.home{
+	background:url(../../images/bg_home.jpg);
+	background-size:cover;
+	width:100%;
+	position: relative;
+}
+
+.callToAction{
+	position:absolute;
+	top:30px;
+	right:30px;
+	width:30%;
+}
+
+.navButton{
+	display:inline-block;
+	border: 1px solid $white;
+	width:45%;
+	min-width:170px;
+	margin:.3em .3em;
+	text-align: center;
+	padding:1.5em 0 0 0;
+
+}
+
+.logo{
+	width:40%;
+	margin:2em 0 0 4em;
+}
+
+.logo img{
+	width:100%;
+}
+
+
+.missionStatement{
+	position:absolute;
+	bottom:30%;
+	right:50px;
+	width:30%;
+	text-align: right;
+}
+
+.homeNav{
+	width:100%;
+	position: absolute;
+	bottom:3em;
+	right:0;
+	left:0;
+}
+
+.homeNavBox{
+	display:inline-block;
+	width:33%;
+	margin:0; 
+	text-align: center;
+	vertical-align: top;
+	padding:2.7em 0 1.5em 0;
+}
+
+
+.navButton p{
+	font-size:1.6em;
+	color:$white;
+	text-transform: uppercase;
+}
+
+.missionStatement p{
+	font-size:1em;
+	color:$white;
+	line-height: 2em;
+}
+
+.name {
+	font-style: italic;
+	font-weight:700;
+}
+
+.name span{
+	font-weight:300;
+	font-style: normal;
+}
+
+.homeNavBox p{
+	color:$white;
+	font-size:2.2em;
+	text-transform: uppercase;
+	@include transition(200ms);
+}
+
+.homeNavBox:hover p{
+	opacity:.3;
+}
+
+
