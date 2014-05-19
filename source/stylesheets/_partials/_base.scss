@@ -50,9 +50,13 @@
 
 /* #Basic Styles
 ================================================== */
+
+$font-stack: 'Merriweather', 'cambria', 'garamond', 'Lucidia Bright', 'hoefler text', Georgia, palatino, courier new, serif;
+
 	body {
+		font-size: 100%;
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: $font-stack;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -61,7 +65,6 @@
 
 /* #Typography
 ================================================== */
-$font-stack: 'Merriweather', 'cambria', 'garamond', 'Lucidia Bright', 'hoefler text', Georgia, palatino, courier new;
 		
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
