@@ -25,6 +25,7 @@
 h1{
 	text-align: center;
 	font-size: 6.25em;
+	margin: 0 0 .5em 0;
 	
 }
 
@@ -46,6 +47,7 @@ h4{
 h5 {
 	text-align: center;
 	font-size: 1.5em;
+	line-height: 2em;
 	
 }
 h6{
@@ -58,6 +60,12 @@ p{
 	font-size: .9em;
 }
 
+.bannergr{
+	background-color: $orange;
+	opacity: .8;
+	color: white;
+	padding: .5em 0em .5em 1em;
+}
 
 /* #Media Queries
 ================================================== */
