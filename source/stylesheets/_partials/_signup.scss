@@ -82,10 +82,20 @@ input[type=submit]:hover{
 footer{
 	width:100%;
 	text-align: center;
+	margin:1.5em 0 1.5em;
 }
 
 footer p{
 	display:inline-block;
-	margin:1em 5em;
+	margin:0 6em;
+}
+
+footer p a{
+	list-style:none;
+	text-decoration: none;
+}
+
+footer p a:visited{
+	color:#B0492F;
 }
 
