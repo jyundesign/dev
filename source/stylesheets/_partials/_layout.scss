@@ -22,22 +22,40 @@
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-	padding: 1em 1em 1em 1em;
-	display: inline;
-
+	padding: 1.5em 0 0 0;
+	top:0;
+	left: 0;
+	text-align: center;
+	height: 100px;
+	
 
 }
 
+.navPages{
+	position: absolute;
+	left: 20px;
+
+}
+.logoTop{
+	width: 45px;
+	margin: 0 4em 0 -22.5px;
+	vertical-align: top;
+	position: absolute;
+	left: 50%;
+	
+}
 li
 {
-	display:inline;	
+	display:inline-block;	
 }
 
 ul li a{
 	text-decoration: none;
 	list-style: none;
 	padding: 0 1em 0 0;
+	 vertical-align: top;
 }
+
 
 ul {
 	display: inline-block;
@@ -62,6 +80,12 @@ a.outSource{
 
 }
 
+.navAction{
+	position: absolute;
+	right: 20px;
+}
+
+
 /* #Page Styles
 ================================================== */
 
@@ -69,7 +93,7 @@ a.outSource{
 h1{
 	text-align: center;
 	font-size: 6.25em;
-	margin: 0 0 .5em 0;
+	margin: 142px 0 .5em 0;
 	color: $brown;
 	
 }
