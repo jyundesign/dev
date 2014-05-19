@@ -17,6 +17,17 @@
 /* #Site Styles
 ================================================== */
 
+.nav{
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	padding: 1em 1em 1em 1em;
+	display: inline;
+
+
+}
+
 li
 {
 	display:inline;	
@@ -25,6 +36,7 @@ li
 ul li a{
 	text-decoration: none;
 	list-style: none;
+	padding: 0 1em 0 0;
 }
 
 ul {
