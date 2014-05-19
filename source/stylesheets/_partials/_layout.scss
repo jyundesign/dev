@@ -16,27 +16,38 @@
 
 /* #Site Styles
 ================================================== */
-a{
-	
-	text-decoration: none;
-}
 
 li
 {
-	display:inline;
-	
+	display:inline;	
 }
 
-.gi{
+ul li a{
+	text-decoration: none;
+	list-style: none;
+}
+
+ul {
+	display: inline-block;
+}
+
+a.gi{
 	color: $orange;
 }
 
-.a{
+a.a{
 	color: $red;
 }
 
-.c{
+a.c{
 	color: $brown;
+}
+
+a.outSource{
+	color: $orange;
+	border: $orange 2px solid;
+	padding: .5em .9em .5em .9em;
+
 }
 
 /* #Page Styles
