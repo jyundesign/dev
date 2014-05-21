@@ -1,3 +1,7 @@
+.header img {
+	width: 100%;
+}
+
 
 
 /* Host & Donate =============================================*/
@@ -42,7 +46,10 @@
 .eventButton{
 	text-align: center;
 	padding: .5em .9em .5em .9em;
-	margin: 0 auto;
+	margin: auto;
+	width: 10%;
+	border: solid 1px $orange;
+	margin-bottom: 5em;
 }
 
 
@@ -83,9 +90,10 @@
 }
 
 .moredetail {
-	width: 40%;
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 2em;
 }
 
 
@@ -110,4 +118,3 @@
 .feedback p{
 	text-align: center;
 }
-
