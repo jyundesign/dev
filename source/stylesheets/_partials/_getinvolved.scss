@@ -62,31 +62,41 @@
 
 /* Concert & Workshop ===========================================*/
 
-.concertinfo {
-	background-color: $red;
+.info {
 	width: 460px;
-	height: 300px;
+	height: 300px;	
+	padding: 1em 0 0 1em;
+
 }
 
 .workshopinfo {
 	background-color: $orange;
-	width: 460px;
-	height: 300px;
 }
 
+.concertinfo {
+	background-color: $red;
+}
+
+.location {
+	font-style: italic;
+}
+
+.eventtitle {
+	border-bottom: 1px solid white;
+	width: 410px;
+	line-height: 1.5em;
+}
 
 .info h6{
 	color: white;
-	padding: .9em 0 0 .9em;
+
 }
 
-.info h4{
+.info h3{
 	color: white;
-	padding: .6em 0 0 .5em;
-	width: 95%;
-	height: 145px;
+	width: 93%;
+	height: 160px;
 	line-height: 40px;
-	font-style: italic;
 }
 
 .moredetail {
