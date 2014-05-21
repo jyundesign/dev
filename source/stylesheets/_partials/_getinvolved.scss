@@ -78,3 +78,9 @@
 .feedback p{
 	text-align: center;
 }
+
+.actionButton{
+	color: $orange;
+	border: $orange 2px solid;
+	padding: .5em .9em .5em .9em;
+}
