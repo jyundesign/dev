@@ -17,17 +17,24 @@
 
 }
 
+.sections{
+	margin: 0 0 7em 0;
+}
+.topSections{
+	margin: 7em 0 0 0;
+}
 
 .grbg{
 	background-image: url(../../images/grbg.jpg);
 	width: 100%;
 	height: 100%;
 	padding: 10em 0em 1em 0em;
+
 	
 }
 
 .topPadding{
-	padding: 1em 0 0em 0;
+	padding: 2em 0 0em 0;
 }
 
 .founder{
@@ -67,7 +74,7 @@
 	width: 100%;
 	height: 100%;
 	padding: 10em 0em 1em 0em;
-	margin: 0;
+	margin: 0 0 0 -10px;
 }
 
 .bannergtm{
@@ -82,6 +89,7 @@
 	width: 100%;
 	height: 100%;
 	padding: 10em 0em 1em 0em;
+	margin: 0 0 0 -10px;
 }
 
 
