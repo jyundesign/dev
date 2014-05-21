@@ -1,9 +1,13 @@
 
 .header{
 	margin-top: 110px;
-	width: 2000px;
+	width: 100%;
 	position: relative;
-	left: 10%;
+	
+}
+
+.header img {
+	width: 100%;
 }
 .bannergr{
 	background-color: $orange;
