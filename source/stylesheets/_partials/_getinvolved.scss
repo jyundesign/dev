@@ -6,8 +6,14 @@
 	text-align: center;
 }
 
-a.host {
+.host a{
 	color: white;
+	text-decoration: none;
+}
+
+.donate a{
+	color: white;
+	text-decoration: none;
 }
 
 
@@ -57,3 +63,18 @@ a.host {
 	font-style: italic;
 }
 
+.feedback {
+}
+
+.feedback h3{
+	text-align: center;
+}
+
+.feedback h6{
+	text-align: center;
+	margin: .5em 0 .5em 0;
+}
+
+.feedback p{
+	text-align: center;
+}
