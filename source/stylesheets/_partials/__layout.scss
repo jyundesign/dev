@@ -18,31 +18,32 @@
 ================================================== */
 
 .nav{
-	background-color: white;
+	background-color: $white;
 	opacity: .9;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-	padding: 1.5em 0 0 0;
+	padding: 2.5em 0;
 	top:0;
 	left: 0;
 	text-align: center;
-	height: 80px;
+	height: 30px;
 	
 
 }
 
 .navPages{
 	position: absolute;
-	left: 20px;
+	left: 50px;
 
 }
 .logoTop{
 	width: 45px;
 	margin: 0 4em 0 -22.5px;
-	vertical-align: top;
+	vertical-align: middle;
 	position: absolute;
 	left: 50%;
+	top:25px;
 	
 }
 li
@@ -81,7 +82,7 @@ a.c{
 a.outSource{
 	color: $orange;
 	border: $orange 2px solid;
-	padding: .5em .9em .5em .9em;
+	padding: .7em 2.2em;
 
 }
 
@@ -91,7 +92,7 @@ a.outSource{
 
 .navAction{
 	position: absolute;
-	right: 20px;
+	right: 50px;
 }
 
 
