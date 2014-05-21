@@ -7,12 +7,23 @@
 /* Host & Donate =============================================*/
 
 .host, .donate {
-	background-color: $orange;
-	opacity: .9;
 	color: white;
 	padding: .5em 0 .5em 0;
 	text-align: center;
 }
+
+
+.host{
+	background-color: $orange;
+	opacity: .9;
+}
+
+.donate{
+	background-color: $red;
+	opacity: .9;
+}
+
+
 
 .host a{
 	color: white;
