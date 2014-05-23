@@ -133,7 +133,12 @@
 
 .givefeedback h6{
 	text-align: center;
-	margin: .5em 0 .5em 0;
+	border-bottom: $orange 1px solid;
+	width: 17em;
+	margin: auto;
+	margin-bottom: 1em;
+	line-height: 1.5em;
+
 }
 
 .givefeedback p{
