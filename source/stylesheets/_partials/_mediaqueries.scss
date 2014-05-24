@@ -148,17 +148,45 @@ and (orientation : landscape){
 }
 
 @media only screen
-and (min-width : 480px)
+and (min-width : 650px)
 and (max-width : 767px){
 
+	.logoTop{
+		margin:0 4em 0 22px;
+		left:0;
+	}
+	
+	.navPages{
+		right: 277px;
+		top: 40px;
+	}
+	
+	.navAction{
+		bottom: 16px;
+		right: 28px;
+	}
+	
 
 }
 
 @media only screen 
 and (min-width : 320px) 
-and (max-width : 479px) {
+and (max-width : 650px) {
 
-
+	.logoTop{
+		margin:0 4em 0 22px;
+		left:0;
+	}
+	
+	.navPages{
+		right:-63px;
+		top:17px;
+	}
+	
+	.navAction{
+		bottom:-6px;
+		right:18px;
+	}
 }
 
 
