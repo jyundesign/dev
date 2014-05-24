@@ -1,18 +1,13 @@
-//= jquery.fancybox.pack.js
+//= require jquery
+//= require fancybox
 //= require_tree .
 
 
 
-
-
 $(document).ready(function() {
- 
 
-	
-	$('.videoGallery').fancybox();
-
-
-
+        $('.fancybox').fancybox();
+  
 });
 
 
