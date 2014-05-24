@@ -9,14 +9,14 @@ and (min-width : 768px)
 and (max-width : 1024px) {
 
 .homeNavBox {
-display: inline-block;
-width: 30%;
-min-width: 100%;
-margin: 0;
-text-align: center;
-vertical-align: top;
-padding: 2em 0 1em 0;
-}
+	display: inline-block;
+	width: 30%;
+	min-width: 100%;
+	margin: 0;
+	text-align: center;
+	vertical-align: top;
+	padding: 2em 0 1em 0;
+	}
 
 .callToAction {
 	position: absolute;
@@ -38,24 +38,24 @@ padding: 2em 0 1em 0;
 }
 
 .missionStatement {
-position: absolute;
-top: 30%;
-right: 50px;
-width: 50%;
-text-align: right;
-}
+	position: absolute;
+	top: 30%;
+	right: 50px;
+	width: 50%;
+	text-align: right;
+	}
 
 .homeNav {
-width: 100%;
-position: absolute;
-bottom: 0;
-right: 0;
-left: 0;
-}
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	}
  
 .homeNavBox p {
-font-size: 1.5em;
-} 
+	font-size: 1.5em;
+	} 
  
 }
 
@@ -70,6 +70,7 @@ and (orientation : landscape){
 	right: -80px;
 	width: 30%;
  }
+ 
  footer p{
 	 margin: 0 1em 0 0;
  }
