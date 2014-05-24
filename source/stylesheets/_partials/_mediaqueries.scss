@@ -8,7 +8,26 @@ and (max-width : 1224px) {
 and (min-width : 768px) 
 and (max-width : 1024px) {
 
+	.callToAction{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	width: 50%;
+ }
 
+	.missionStatement{
+		position: absolute;
+		
+	}
+
+
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)
+and (orientation : landscape){
+ 
  .callToAction{
 	position: absolute;
 	top: 30px;
@@ -18,13 +37,6 @@ and (max-width : 1024px) {
  footer p{
 	 margin: 0 1em 0 0;
  }
-
-}
-
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px)
-and (orientation : landscape){
 
 
 }
