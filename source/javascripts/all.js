@@ -1,5 +1,5 @@
 //= require jquery
-//= require fancybox
+//= require jquery.fancybox
 //= require_tree .
 
 
