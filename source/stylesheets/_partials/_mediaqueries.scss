@@ -120,37 +120,11 @@
 	}
 }
 
-/*
-@media only screen 
-and (min-width : 768px) 
-and (max-width : 1024px)
-and (orientation : landscape){
- 
-/*
-.callToAction{
-	position: absolute;
-	top: 30px;
-	right: -80px;
-	width: 30%;
-	}
- 
- footer p{
-	 margin: 0 1em 0 0;
-	 }
 
-
-.missionStatement {
-	position: absolute;
-	top: 25%;
-	right: 16px;
-	width: 50%;
-	text-align: right;
-	}
-
-*/
 @media only screen
-and (min-width : 650px)
+and (min-width : 677px)
 and (max-width : 767px) {
+	
 	.homeNavBox {
 		display:inline-block;
 		width:30%;
@@ -271,6 +245,7 @@ and (max-width : 767px) {
 	.contactInfoForm input[type=submit]{
 		width:32%;
 	}	
+	
 	.container{
 		width: 100%;
 		padding: 0 2em;
@@ -281,7 +256,7 @@ and (max-width : 767px) {
 
 @media only screen 
 and (min-width : 320px) 
-and (max-width : 650px) {
+and (max-width : 676px) {
 
 	.container{
 		width: 100%;
