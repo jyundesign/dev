@@ -254,7 +254,11 @@ and (max-width : 767px) {
 	.contactInfoForm input[type=submit]{
 		width:32%;
 	}	
-
+	.container{
+		width: 100%;
+		padding: 0 2em;
+		margin: 0;
+	}
 	
 }
 
@@ -494,10 +498,14 @@ and (max-width : 650px) {
 	}
 	
 	
+	.videoGalleryWrapper img{
+		max-width: 300px;	
+	}
 	
 	
-	
-	
+	.atopPadding{
+		padding-top: 0px;
+	}
 	
 	
 	
