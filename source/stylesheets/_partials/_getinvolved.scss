@@ -98,11 +98,11 @@
 	line-height: 1.5em;
 }
 
-.info h6{
+.info h6 {
 	color: white;
 }
 
-.info h3{
+.info h3 {
 	color: white;
 	width: 93%;
 	height: 160px;
@@ -116,7 +116,9 @@
 	margin-top: 2em;
 }
 
-
+a:hover {
+	text-decoration: underline;
+}
 
 /* Feedback ======================================================*/
 
