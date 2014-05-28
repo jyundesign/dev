@@ -33,12 +33,13 @@ transition: all $time ease-in-out;
 }
 
 .logo{
-	width:40%;
+	width:35%;
 	margin:2em 0 0 4em;
 }
 
 .logo img{
 	width:100%;
+	padding-top: 13em;
 }
 
 
@@ -51,11 +52,10 @@ transition: all $time ease-in-out;
 }
 
 .homeNav{
-	width:100%;
+	width:60%;
 	position: absolute;
-	bottom:3em;
-	right:0;
-	left:0;
+	left: 45px;
+	bottom: 38em;
 }
 
 .homeNavBox{
@@ -93,7 +93,7 @@ transition: all $time ease-in-out;
 
 .homeNavBox p{
 	color:$white;
-	font-size:2.2em;
+	font-size:1.6em;
 	text-transform: uppercase;
 	@include transition(200ms);
 }
