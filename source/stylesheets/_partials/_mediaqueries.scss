@@ -262,6 +262,11 @@ and (max-width : 767px) {
 and (min-width : 320px) 
 and (max-width : 650px) {
 
+	.container{
+		width: 100%;
+		
+	}
+
 	h3 {
 		font-size:1.5em;
 	}
@@ -298,6 +303,7 @@ and (max-width : 650px) {
 	}
 	
 	footer p {
+	
 		display: block;
 		margin: 0 4em;
 	}
@@ -451,4 +457,50 @@ and (max-width : 650px) {
 	.contactInfoForm input[type=submit]{
 		width:32%;
 	}	
+
+
+	.conduct{
+		padding-top: 0px;
+		margin-top:0px;
+	}
+
+	.conductMobile{
+		margin-bottom: 0px;
+	}
+	.founder{
+		text-align: center;
+		width: 100%;
+	}
+
+	.mj{
+		width: 100%;
+	}
+
+	.contactInfo{
+		margin-bottom: 2em;
+		
+	}
+
+	.gamelanPortlandbg{
+		margin: 0px;
+		width: 100%;
+	}
+	
+	
+	.bannergip{
+		text-align: center;
+		margin: 0;
+		padding:  .5em 0em .5em 0em; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
