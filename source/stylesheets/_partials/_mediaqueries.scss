@@ -107,6 +107,10 @@
 		margin-bottom:15px;
 	}
 	
+	.info {
+		height: 300px;
+	}
+	
 	.eventtitle {
 		width:325px;
 	}
@@ -259,6 +263,10 @@ and (max-width : 767px) {
 		margin: 0;
 	}
 	
+	.info {
+		height: 300px;
+	}
+	
 }
 
 @media only screen 
@@ -408,7 +416,9 @@ and (max-width : 676px) {
 	}
 	
 	.info {
-		width: 275px;
+		width: 90%;	
+		height: 300px;
+
 	}
 	
 	.info h3{
