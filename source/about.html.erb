@@ -6,7 +6,7 @@
 <body>
 
 
-    <div class="header"> <%= image_tag 'bannerAbout.png', :alt => 'bannerAbout'%></div>
+    <div class="header"><%= image_tag 'bannerAbout.png', :alt => 'bannerAbout'%></div>
 
     <div class="container">
         <div class="sixteen columns">
@@ -87,11 +87,17 @@
                 	 <h6 class="founder">Performances and Instruments</h6>  	 
 
                 <div class="videoGalleryWrapper">
+              
 					<a class="fancybox" rel="group" href="images/workshop.jpg"><img class="fancyThumbWidth" src="images/workshop.jpg" alt="" /></a>
+					 <% link_to 'workshop.jpg' do %>
+					<%= image_tag 'workshop.jpg' %>
+							<% end %>
 
 					
 					<a class="fancybox" rel="group" href="images/concert.jpg"><img class="fancyThumbWidth" src="images/concert.jpg" alt="" /></a>
-
+					 <% link_to '//www.youtube.com/embed/7nDohVxA2rs' do %>
+					<%= image_tag 'video1.jpg' %>
+							<% end %>
 				
 					<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/7nDohVxA2rs"><img class="fancyThumbWidth video1" src="images/video1.jpg" alt="video1"/></a>
 
