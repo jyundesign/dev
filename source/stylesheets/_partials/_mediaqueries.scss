@@ -130,7 +130,7 @@ and (max-width : 767px) {
 	.homeNavBox {
 		display:inline-block;
 		width:30%;
-		min-width:100%;
+		min-width:33%;
 		margin:0;
 		text-align:center;
 		vertical-align:top;
@@ -139,8 +139,8 @@ and (max-width : 767px) {
 	
 	.callToAction {
 		position:absolute;
-		top:45px;
-		right:20%;
+		top:100px;
+		right:0;
 		width:56%;
 		display:inline;
 	}
@@ -155,16 +155,15 @@ and (max-width : 767px) {
 		width:34%;
 		margin:2em 0 0 1em;
 		position:absolute;
-		top:23%;
+		top:15%;
 		left:5%;
 	}
 	
 	.missionStatement {
 		position:absolute;
-		top:30%;
-		right:50px;
+		top:55%;
+		right:30px;
 		width:50%;
-		text-align:left;
 	}
 	
 	.homeNav {
@@ -173,7 +172,14 @@ and (max-width : 767px) {
 		bottom:0;
 		right:0;
 		left:0;
+		top: 0;
+		min-width: 800px
 	}
+	
+	.homeNavBox p {
+		font-size:1.3em;
+	}
+	
 	
 	.logoTop {
 		margin:0 4em 0 22px;
