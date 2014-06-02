@@ -25,7 +25,7 @@
 }
 
 .grbg{
-	background-image: url(../../images/grbg.jpg);
+	background-image: image-url("grbg.jpg");
 	width: 100%;
 	height: 100%;
 	padding: 10em 0em 1em 0em;
@@ -75,7 +75,8 @@
 	
 }
 .gamelanPortlandbg{
-	background-image:url(../../images/gamelanPortlandbg.png);
+	background-image: image-url("gamelanPortlandbg.png");
+
 	width: 100%;
 	height: 100%;
 	padding: 10em 0em 1em 0em;
