@@ -1,5 +1,6 @@
 //= require jquery
 //= require jquery.fancybox
+//= require wufoo
 //= require_tree .
 
 

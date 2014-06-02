@@ -138,9 +138,9 @@ input[type=submit]:hover{
 	margin:0 0 .9em .5em;		
 }
 
-.contactInfoForm input[name=Name]{
-	width:34.25%;
-	margin:.1em 0 0 0;
+.contactInfoForm .formName{
+	width:36.25%;
+	margin:.0 0 0 0;
 }
 
 
@@ -148,12 +148,12 @@ input[type=submit]:hover{
 	background: #e6e6e6;
 	text-align: left;
 	padding:2em;
-	width:18%;
+	width:25.5%;
 	display:inline-block;
 	vertical-align: top;
 	color:$black;
 	font-size:.7em;
-	height:181px;
+	height:200px;
 	margin:0 .7em 1em 0;
 }
 

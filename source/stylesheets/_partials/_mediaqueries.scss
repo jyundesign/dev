@@ -224,7 +224,7 @@ and (max-width : 767px) {
 		margin:0 0 .5em 0;
 	}
 	
-	.contactInfoForm input[name=Name]{
+	.contactInfoForm .formName{
 		display:block;
 		width:100%;
 		margin:0 0 .5em 0;
@@ -431,7 +431,7 @@ and (max-width : 676px) {
 		margin:0 0 .5em 0;
 	}
 	
-	.contactInfoForm input[name=Name]{
+	.contactInfoForm .formName{
 		display:block;
 		width:100%;
 		margin:0 0 .5em 0;
