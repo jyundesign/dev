@@ -39,7 +39,7 @@
 .founder{
 	border-bottom: $orange solid 1px;
 	color: $orange;
-	padding-bottom: 10px;
+	padding-bottom: 1em;
 	margin-bottom: 20px;
 	font-style: italic;
 	width: 400px;
@@ -59,11 +59,12 @@
 .contactInfo{
 	background-color: $orange;
 	padding: 20px 0 10px 20px;
+
 	
 }
 
 .mj{
-	margin-left: 0px;
+	margin-left: 10px;
 }
 
 .bannergip{
@@ -104,3 +105,21 @@
 	display: inline-block;
 	text-align: center;
 }
+
+
+.videoGalleryWrapper{
+	margin: 0 auto;
+	padding: 3em 0 4em 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+

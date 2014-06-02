@@ -7,9 +7,13 @@
 $(document).ready(function() {
 
         $('.fancybox').fancybox();
+
+
+
+	$(function(){
+		$('#menu').slicknav();
+	});
   
 });
-
-
 
 
