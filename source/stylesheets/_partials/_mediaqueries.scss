@@ -1,6 +1,17 @@
+@media only screen
+and (max-width : 1224px) {
+
+	#menu {
+		display:none;
+		margin: -20px 0 0 0;
+	}
+	
+	.slicknav_menu {
+		display:none;
+	}
+}
+
 @media only screen and (max-width : 1224px) {
-
-
 
 .navButton {
 		min-width: 130px;
@@ -129,6 +140,10 @@
 }
 @media only screen
 and (max-width : 767px) {
+	
+	.nav{
+		display: none;
+	}
 
 	#menu {
 		display:none;

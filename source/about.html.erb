@@ -36,7 +36,9 @@
                 </div>
 
                 <div class="seven columns omega topSections">
-                    <img class="mj" src="images/mindyrebab.jpg" alt="mindyrebab">
+                  
+                    <%= image_tag 'mindyrebab.jpg', :class =>'mj', :alt => 'mindyrebab'%>
+                    
 
                     <div class="seven columns omega contactInfo">
                         <h6 class="white">Phone</h6>
@@ -87,39 +89,72 @@
                 	 <h6 class="founder">Performances and Instruments</h6>  	 
 
                 <div class="videoGalleryWrapper">
+                
+                
+                <% link_to 'workshop.jpg', :class => 'fancybox', :rel => 'group' do %>
+					<%= image_tag 'workshop.jpg', :class =>'fancyThumbWidth' %>
+						<% end %>
               
 					<a class="fancybox" rel="group" href="images/workshop.jpg"><img class="fancyThumbWidth" src="images/workshop.jpg" alt="" /></a>
-					 <% link_to 'workshop.jpg' do %>
-					<%= image_tag 'workshop.jpg' %>
-							<% end %>
+				
+				   <% link_to 'concert.jpg', :class => 'fancybox', :rel => 'group' do %>
+					<%= image_tag 'concert.jpg', :class =>'fancyThumbWidth' %>
+						<% end %>
 
 					
-					<a class="fancybox" rel="group" href="images/concert.jpg"><img class="fancyThumbWidth" src="images/concert.jpg" alt="" /></a>
-					 <% link_to '//www.youtube.com/embed/7nDohVxA2rs' do %>
-					<%= image_tag 'video1.jpg' %>
-							<% end %>
+					<a class="fancybox" rel="group" href="images/concert.jpg"> 
+						<img class="fancyThumbWidth" src="images/concert.jpg" alt="" /></a>
+					
+					<% link_to '//www.youtube.com/embed/7nDohVxA2rs', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'video1.jpg', :class =>'fancyThumbWidth video1', :alt => 'video1' %>
+						<% end %>
+						
+	<% link_to '//www.youtube.com/embed/vJcJ_hzq7FM', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'video2.jpg', :class =>'fancyThumbWidth video1', :alt => 'video2' %>
+						<% end %>				
 				
-					<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/7nDohVxA2rs"><img class="fancyThumbWidth video1" src="images/video1.jpg" alt="video1"/></a>
+	<% link_to '//www.youtube.com/embed/MWfXyzNMKFw', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'video3.jpg', :class =>'fancyThumbWidth video3', :alt => 'video3' %>
+						<% end %>	
 
 
+	<% link_to '//www.youtube.com/embed/s0_Lk2HAIqU', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'video4.jpg', :class =>'fancyThumbWidth video4', :alt => 'video4' %>
+						<% end %>	
 
-					<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/vJcJ_hzq7FM"><img class="fancyThumbWidth video2" src="images/video2.jpg" alt="video2"/></a>
+	<% link_to '//www.youtube.com/embed/NxRH9U1fzzw', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'video5.jpg', :class =>'fancyThumbWidth video5', :alt => 'video5' %>
+						<% end %>
+
+	<% link_to '//www.youtube.com/embed/j6-A4kqRWRU', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'video6.jpg', :class =>'fancyThumbWidth video6', :alt => 'video6' %>
+						<% end %>
 
 
-	<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/MWfXyzNMKFw"><img class="fancyThumbWidth video3" src="images/video3.jpg" alt="video3"/></a>
-
-
-	<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/s0_Lk2HAIqU"><img class="fancyThumbWidth video4" src="images/video4.jpg" alt="video4"/></a>
-
-	<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/NxRH9U1fzzw"><img class="fancyThumbWidth video5" src="images/video5.jpg" alt="video5"/></a>
-	
-	<a class="fancybox fancybox.iframe" rel="group"  href="//www.youtube.com/embed/j6-A4kqRWRU"><img class="fancyThumbWidth video6" src="images/video6.jpg" alt="video6"/></a>
+	<% link_to 'images/photo7.jpg', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'tphoto7.jpg', :class =>'fancyThumbWidth video7', :alt => 'video7' %>
+						<% end %>
 		
 	<a class="fancybox" rel="group"  href="images/photo7.jpg" alt="photo7"/><img class="fancyThumbWidth video7" src="images/tphoto7.jpg" alt="tphoto7"/></a>
 	
+	
+	<% link_to 'images/photo9.jpg', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'tphoto9.jpg', :class =>'fancyThumbWidth photo9', :alt => 'photo9' %>
+						<% end %>
+	
 	<a class="fancybox" rel="group"  href="images/photo9.jpg" alt="photo9"/><img class="fancyThumbWidth video9" src="images/tphoto9.jpg" alt="tphoto9"/></a>
+	
+		
+	<% link_to 'images/photo10.jpg', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'tphoto10.jpg', :class =>'fancyThumbWidth photo10', :alt => 'photo10' %>
+						<% end %>
+	
 
 	<a class="fancybox" rel="group"  href="images/photo10.jpg" alt="photo10"/><img class="fancyThumbWidth video7" src="images/tphoto10.jpg" alt="tphoto10"/></a>
+	
+		<% link_to 'images/photo11.jpg', :class => 'fancybox fancybox.iframe', :rel => 'group' do %>
+					<%= image_tag 'tphoto11.jpg', :class =>'fancyThumbWidth photo11', :alt => 'photo11' %>
+						<% end %>
 	
 	<a class="fancybox" rel="group"  href="images/photo11.jpg" alt="photo11"/><img class="fancyThumbWidth video9" src="images/tphoto11.jpg" alt="tphoto11"/></a>
 
