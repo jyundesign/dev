@@ -37,7 +37,7 @@
 
 
 .overlay1 {
-	background-image: url(../../images/hostaworkshop.jpg);
+	background-image: image-url("hostaworkshop.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
@@ -48,7 +48,7 @@
 }
 
 .overlay2 {
-	background-image:url(../../images/donate.jpg);
+	background-image:image-url("donate.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
