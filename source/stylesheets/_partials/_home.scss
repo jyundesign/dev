@@ -8,9 +8,10 @@ transition: all $time ease-in-out;
 }
 
 .home{
-	background:url(../../images/bg_home.jpg);
+	background:image-url("bg_home.jpg") no-repeat;
 	background-size:cover;
 	width:100%;
+	height: 100%;
 	position: relative;
 }
 
@@ -55,9 +56,8 @@ transition: all $time ease-in-out;
 	width:65%;
 	position: absolute;
 	left: 45px;
-	bottom: 40em;
 	top: 35px;
-}
+	}
 
 .homeNavBox{
 	display:inline-block;

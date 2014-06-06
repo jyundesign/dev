@@ -1,4 +1,19 @@
+@media only screen
+and (max-width : 1224px) {
+
+	#menu {
+		display:none;
+		margin: -20px 0 0 0;
+	}
+	
+	.slicknav_menu {
+		display:none;
+	}
+}
+
 @media only screen and (max-width : 1224px) {
+
+/* Index =============================================*/
 
 .navButton {
 		min-width: 130px;
@@ -17,10 +32,13 @@
 		font-size: 1.3em;
 	}
 	
+	
 }
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
-	
+
+/* Index =======================================*/
+
 	.homeNavBox {
 		display:inline-block;
 		width:30%;
@@ -74,6 +92,9 @@
 		font-size:1.3em;
 	}
 	
+/* Type =============================================*/
+
+	
 	h1 {
 		font-size:4em;
 	}
@@ -94,39 +115,80 @@
 		font-size:1em;
 	}
 	
+/* Get Involved ======================================*/
+	
 	.info {
 		width:350px;
 	}
-	
-	footer p {
-		margin:0 1em 0 0;
-	}
-	
+		
 	.overlay1,.overlay2 {
 		padding:14em 0 4em;
 		margin-bottom:15px;
+	}
+	
+	.info {
+		height: 300px;
 	}
 	
 	.eventtitle {
 		width:325px;
 	}
 	
+/* footer ============================================*/
+	
+	footer p {
+		margin:0 1em 0 0;
+	}
+	
+/* About =============================================*/
+	
 	.founder {
 		width:370px;
 	}
-	
 	.mj {
-		padding-left:0;
-		width:100%;
-		height:80%;
+		width: 100%;
+	}
+	
+}
+
+
+
+@media only screen
+and (max-width : 767px) {
+	
+	.nav{
+		display: none;
+	}
+
+	#menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
 	}
 }
+
+
+
 
 
 @media only screen
 and (min-width : 677px)
 and (max-width : 767px) {
 	
+	.header{
+		margin-top: 0px;
+	}
+
+	.container{
+		width: 100%;
+		padding: 0 2em;
+		margin: 0;
+	}
+
+/* Index =============================================*/
+
 	.homeNavBox {
 		display:inline-block;
 		width:30%;
@@ -195,10 +257,8 @@ and (max-width : 767px) {
 		bottom:16px;
 		right:28px;
 	}
-	
-	.homeNavBox p {
-		font-size:1.5em;
-	}
+
+/* Type =============================================*/
 	
 	h1 {
 		font-size:4em;
@@ -219,6 +279,8 @@ and (max-width : 767px) {
 	h6 {
 		font-size:1em;
 	}
+
+/* Contact Page ======================================*/
 	
 	.contactInfoForm{
 		width:320px;
@@ -253,10 +315,10 @@ and (max-width : 767px) {
 		width:32%;
 	}	
 	
-	.container{
-		width: 100%;
-		padding: 0 2em;
-		margin: 0;
+/* Get Involved =======================================*/
+	
+	.info {
+		height: 300px;
 	}
 	
 }
@@ -264,18 +326,16 @@ and (max-width : 767px) {
 @media only screen 
 and (min-width : 320px) 
 and (max-width : 676px) {
+	
+	
+	
+	.header{
+		margin-top: 0px;
+	}
 
 	.container{
 		width: 100%;
 		
-	}
-
-	h3 {
-		font-size:1.5em;
-	}
-	
-	.bannergr {
-		padding:.5em 0;
 	}
 	
 	.logoTop {
@@ -283,14 +343,21 @@ and (max-width : 676px) {
 		left:0;
 	}
 	
-	.navPages {
-		right:-63px;
-		top:17px;
+	
+/* Type ================================================*/
+		
+	h1 {
+		font-size:3em;
+		margin-top:50px;
 	}
 	
-	.navAction {
-		bottom:-6px;
-		right:18px;
+	h2 {
+		font-size:2em;
+	}
+			
+	h3 {
+		font-size:1.5em;
+		text-align:center;
 	}
 	
 	h5 {
@@ -301,15 +368,19 @@ and (max-width : 676px) {
 		font-size:1em;
 	}
 	
+/* About =============================================*/
+	
+	.bannergr {
+		padding:.5em 0;
+	}
+		
+/* Get Involved =======================================*/
+	
 	.moredetail {
 		width:90%;
 	}
 	
-	footer p {
-	
-		display: block;
-		margin: 0 4em;
-	}
+/* Mailing List =======================================*/
 	
 	.signUp input {
 		width:75%;
@@ -328,73 +399,59 @@ and (max-width : 676px) {
 	.containerInfoForminput {
 		width:100%;
 	}
+		
+/* Nav =============================================*/
 	
-	h1 {
-		font-size:3em;
-		margin-top:50px;
+	.navPages {
+		right:-63px;
+		top:17px;
 	}
 	
-	h2 {
-		font-size:2em;
+	.navAction {
+		bottom:-6px;
+		right:18px;
 	}
 	
-	h3 {
-		font-size:1.6em;
-		text-align:center;
-	}
+/* Index =============================================*/
 	
-	.bannergr {
-		padding:.5em 0;
+	.missionStatement {
+		display: none;
 	}
-	
-	h5 {
-		font-size:.8em;
-	}
-	
-	h6 {
-		font-size:1em;
-	}
-	
+
+
 	.homeNavBox {
 		display:inline-block;
-		width:30%;
-		min-width:100%;
+		width:100%;
 		margin:0;
 		text-align:center;
 		vertical-align:top;
-		padding:2em 0 1em;
+		padding:1em 0 0;
 	}
 	
 	.callToAction {
 		position:absolute;
-		top:45px;
-		right:20%;
-		width:56%;
+		bottom:170px;
+		width:100%;
 		display:inline;
 	}
 	
 	.navButton p {
-		font-size:1.2em;
+		font-size:1em;
 		color:#f7eee8;
 		text-transform:uppercase;
 	}
 	
 	.logo {
-		width:34%;
-		margin:2em 0 0 1em;
-		position:absolute;
-		top:23%;
-		left:5%;
+		width:40%;
+		margin: 0 auto;
+		}
+		
+	.logo img {
+		width: 100%;
+		padding-top: 1em;
 	}
 	
-	.missionStatement {
-		position:absolute;
-		top:30%;
-		right:50px;
-		width:50%;
-		text-align:left;
-	}
-	
+		
 	.homeNav {
 		width:100%;
 		position:absolute;
@@ -404,11 +461,16 @@ and (max-width : 676px) {
 	}
 	
 	.homeNavBox p {
-		font-size:1.5em;
+		font-size:1em;
 	}
 	
+	
+/* Get Involved ========================================*/
+
 	.info {
-		width: 275px;
+		width: 90%;	
+		height: 300px;
+
 	}
 	
 	.info h3{
@@ -428,6 +490,8 @@ and (max-width : 676px) {
 		width: 265px;
 	}
 	
+/* Contact =============================================*/
+	
 	.contactInfoForm{
 		width:320px;
 	}
@@ -461,7 +525,6 @@ and (max-width : 676px) {
 		width:32%;
 	}	
 
-
 	.conduct{
 		padding-top: 0px;
 		margin-top:0px;
@@ -470,6 +533,9 @@ and (max-width : 676px) {
 	.conductMobile{
 		margin-bottom: 0px;
 	}
+	
+/* About =============================================*/
+	
 	.founder{
 		text-align: center;
 		width: 100%;
@@ -477,31 +543,24 @@ and (max-width : 676px) {
 
 	.mj{
 		width: 100%;
-	}
-
-	.contactInfo{
-		margin-bottom: 2em;
-		
+		margin-left: 0px;
 	}
 
 	.gamelanPortlandbg{
 		margin: 0px;
 		width: 100%;
 	}
-	
-	
+		
 	.bannergip{
 		text-align: center;
 		margin: 0;
 		padding:  .5em 0em .5em 0em; 
 	}
 	
-	
 	.videoGalleryWrapper img{
 		max-width: 300px;	
 	}
-	
-	
+		
 	.atopPadding{
 		padding-top: 0px;
 	}
@@ -512,9 +571,15 @@ and (max-width : 676px) {
 		padding:  .5em 0em .5em 0em; 
 	}
 	
-	
 	.gamelanMusicbg{
 		margin: 0px;
 		width: 100%;
+	}
+	
+/* footer =============================================*/
+
+	footer p {
+		display: block;
+		margin: 0 4em;
 	}
 }
