@@ -15,6 +15,18 @@ transition: all $time ease-in-out;
 	position: relative;
 }
 
+.homeGetInvolved{
+	background-color:rgba(112,63,34,.9);
+}
+
+.homeAbout{
+	background-color:rgba(201,71,44,.9);
+}
+
+.homeContact{
+	background-color:rgba(245,151,32,.9);
+}
+
 .callToAction{
 	position:absolute;
 	top:30px;
@@ -34,13 +46,14 @@ transition: all $time ease-in-out;
 }
 
 .logo{
-	width:35%;
-	margin:2em 0 0 4em;
+	width:43%;
+	position:absolute;
+	top:23%;
+	left:2%;
 }
 
 .logo img{
 	width:100%;
-	padding-top: 13em;
 }
 
 
