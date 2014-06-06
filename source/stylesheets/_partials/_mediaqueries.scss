@@ -138,7 +138,12 @@ and (max-width : 1224px) {
 	.eventtitle {
 		width:325px;
 	}
-	
+/* Contact Page ======================================*/
+
+	#foli5{
+		width:67%;
+	}
+
 /* footer ============================================*/
 	
 	footer p {
@@ -297,11 +302,32 @@ and (max-width : 767px) {
 	}
 
 /* Contact Page ======================================*/
-	
 	.contactInfoForm{
-		width:320px;
+		width:100%;
+		margin:0;
+		padding:0;
 	}
 	
+	.contactInfoForm li{
+		width:100%;
+		margin:0;
+	}
+	
+	#foli1{
+		width:100%;
+		margin:0;
+	}
+	
+	#foli5{
+		width:100%;
+		margin:0 0 1em -6px;
+		
+	}
+	
+	fieldset{
+		margin:0;
+	}
+
 	.contactInfoForm input[type=text]{
 		display:block;
 		width:100%;
@@ -317,14 +343,12 @@ and (max-width : 767px) {
 	.contactInfoForm .purposeRadio{
 		display:block;
 		margin:0 0 .5em 0;
-		max-width:333px;
 		width:100%;
 		height:auto;
 	}
 	
 	.contactInfoForm textarea{
 		width:100%;
-		max-width:333px;
 	}
 	
 	.contactInfoForm input[type=submit]{
@@ -549,7 +573,29 @@ and (max-width : 676px) {
 /* Contact =============================================*/
 	
 	.contactInfoForm{
-		width:320px;
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	
+	.contactInfoForm li{
+		width:100%;
+		margin:0;
+	}
+	
+	#foli1{
+		width:100%;
+		margin:0;
+	}
+	
+	#foli5{
+		width:100%;
+		margin:0 0 1em -6px;
+		
+	}
+	
+	fieldset{
+		margin:0;
 	}
 	
 	.contactInfoForm input[type=text]{
@@ -567,14 +613,12 @@ and (max-width : 676px) {
 	.contactInfoForm .purposeRadio{
 		display:block;
 		margin:0 0 .5em 0;
-		max-width:333px;
 		width:100%;
 		height:auto;
 	}
 	
 	.contactInfoForm textarea{
 		width:100%;
-		max-width:333px;
 	}
 	
 	.contactInfoForm input[type=submit]{
