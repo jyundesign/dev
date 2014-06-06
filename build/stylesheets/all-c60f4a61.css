@@ -1,0 +1,2823 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+/* line 29, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size-adjust: auto; }
+
+/* line 31, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 38, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 40, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+body {
+  line-height: 1; }
+
+/* line 42, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 44, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 47, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 50, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* #Basic Styles
+================================================== */
+/* line 60, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+body {
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3em;
+  background: #fff;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%; }
+
+/* #Typography
+================================================== */
+/* line 75, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  font-weight: normal; }
+
+/* line 79, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif; }
+
+/* line 80, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h1 {
+  font-size: 46px;
+  line-height: 50px;
+  margin-bottom: .7em; }
+
+/* line 81, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h2 {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: .7em; }
+
+/* line 82, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h3 {
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: .7em; }
+
+/* line 83, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h4 {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: .7em; }
+
+/* line 84, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h5 {
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: .7em; }
+
+/* line 85, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+h6 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: .7em; }
+
+/* line 86, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.subheader {
+  color: #777; }
+
+/* line 88, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+p {
+  margin: 0 0 20px 0;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif; }
+
+/* line 89, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+p img {
+  margin: 0; }
+
+/* line 90, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+p.lead {
+  font-size: 21px;
+  line-height: 27px;
+  color: #777; }
+
+/* line 92, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+em {
+  font-style: italic; }
+
+/* line 93, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+strong {
+  font-weight: bold;
+  color: #333; }
+
+/* line 94, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+small {
+  font-size: 80%; }
+
+/*	Blockquotes  */
+/* line 97, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote, blockquote p {
+  font-size: 17px;
+  line-height: 24px;
+  color: #777;
+  font-style: italic; }
+
+/* line 98, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote {
+  margin: 0 0 20px;
+  padding: 9px 20px 0 19px;
+  border-left: 1px solid #ddd; }
+
+/* line 99, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote cite {
+  display: block;
+  font-size: 12px;
+  color: #555; }
+
+/* line 100, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote cite:before {
+  content: "\2014 \0020"; }
+
+/* line 101, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+  color: #555; }
+
+/* line 103, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0; }
+
+/* #Links
+================================================== */
+/* line 108, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+a, a:visited {
+  color: #333;
+  text-decoration: underline;
+  outline: 0; }
+
+/* line 109, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+a:hover, a:focus {
+  color: #000; }
+
+/* line 110, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+p a, p a:visited {
+  line-height: inherit; }
+
+/* #Lists
+================================================== */
+/* line 115, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul, ol {
+  margin-bottom: 20px; }
+
+/* line 116, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul {
+  list-style: none outside; }
+
+/* line 117, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ol {
+  list-style: decimal; }
+
+/* line 118, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ol, ul.square, ul.circle, ul.disc {
+  margin-left: 30px; }
+
+/* line 119, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul.square {
+  list-style: square outside; }
+
+/* line 120, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul.circle {
+  list-style: circle outside; }
+
+/* line 121, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul.disc {
+  list-style: disc outside; }
+
+/* line 123, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul ul, ul ol,
+ol ol, ol ul {
+  margin: 4px 0 5px 30px;
+  font-size: 90%; }
+
+/* line 125, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul ul li, ul ol li,
+ol ol li, ol ul li {
+  margin-bottom: 6px; }
+
+/* line 126, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+li {
+  line-height: 18px;
+  margin-bottom: 12px; }
+
+/* line 127, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+ul.large li {
+  line-height: 21px; }
+
+/* line 128, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+li p {
+  line-height: 21px; }
+
+/* #Images
+================================================== */
+/* line 133, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+img.scale-with-grid {
+  max-width: 100%;
+  height: auto; }
+
+/* #Buttons
+================================================== */
+/* line 145, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background: #eee;
+  /* Old browsers */
+  background: #eeeeee -moz-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  /* FF3.6+ */
+  background: #eeeeee -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.2)));
+  /* Chrome,Safari4+ */
+  background: #eeeeee -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: #eeeeee -o-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  /* Opera11.10+ */
+  background: #eeeeee -ms-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  /* IE10+ */
+  background: #eeeeee linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  /* W3C */
+  border: 1px solid #aaa;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #444;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  margin-bottom: 20px;
+  line-height: normal;
+  padding: 8px 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 175, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  color: #222;
+  background: #ddd;
+  /* Old browsers */
+  background: #dddddd -moz-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* FF3.6+ */
+  background: #dddddd -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+  /* Chrome,Safari4+ */
+  background: #dddddd -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: #dddddd -o-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* Opera11.10+ */
+  background: #dddddd -ms-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* IE10+ */
+  background: #dddddd linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* W3C */
+  border: 1px solid #888;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa; }
+
+/* line 192, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+  border: 1px solid #666;
+  background: #ccc;
+  /* Old browsers */
+  background: #cccccc -moz-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
+  /* FF3.6+ */
+  background: #cccccc -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.35)), color-stop(100%, rgba(10, 10, 10, 0.4)));
+  /* Chrome,Safari4+ */
+  background: #cccccc -webkit-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: #cccccc -o-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
+  /* Opera11.10+ */
+  background: #cccccc -ms-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
+  /* IE10+ */
+  background: #cccccc linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
+  /* W3C */ }
+
+/* line 206, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.button.full-width,
+button.full-width,
+input[type="submit"].full-width,
+input[type="reset"].full-width,
+input[type="button"].full-width {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center; }
+
+/* Fix for odd Mozilla border & padding issues */
+/* line 214, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* #Forms
+================================================== */
+/* line 223, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+form {
+  margin-bottom: 20px; }
+
+/* line 225, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+fieldset {
+  margin-bottom: 20px; }
+
+/* line 231, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  border: 1px solid #ccc;
+  padding: 6px 4px;
+  outline: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  margin: 0;
+  width: 210px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background: #fff; }
+
+/* line 246, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+select {
+  padding: 0; }
+
+/* line 251, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 1px solid #aaa;
+  color: #444;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+
+/* line 257, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+textarea {
+  min-height: 60px; }
+
+/* line 260, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+label,
+legend {
+  display: block;
+  font-weight: bold;
+  font-size: 13px; }
+
+/* line 264, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+select {
+  width: 220px; }
+
+/* line 266, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+input[type="checkbox"] {
+  display: inline; }
+
+/* line 269, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+label span,
+legend span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #444; }
+
+/* #Misc
+================================================== */
+/* line 276, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.remove-bottom {
+  margin-bottom: 0 !important; }
+
+/* line 277, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.half-bottom {
+  margin-bottom: 10px !important; }
+
+/* line 278, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__base.scss */
+.add-bottom {
+  margin-bottom: 20px !important; }
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+/* #Site Styles
+================================================== */
+/* line 20, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.mobileNav {
+  display: none; }
+
+/* line 24, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.slicknav_menu {
+  display: none; }
+
+/* line 28, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+#menu {
+  display: none; }
+
+/* line 32, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.nav {
+  background-color: #f7eee8;
+  opacity: .9;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 2.5em 0 4.5em 0;
+  top: 0;
+  left: 0;
+  text-align: center;
+  height: 30px; }
+
+/* line 47, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.navPages {
+  position: absolute;
+  left: 50px; }
+
+/* line 52, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.logoTop {
+  width: 45px;
+  margin: 0 4em 0 -22.5px;
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  top: 25px; }
+
+/* line 62, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+li {
+  display: inline-block; }
+
+/* line 66, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 1em 0em 0;
+  vertical-align: top; }
+
+/* line 73, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* line 78, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+ul {
+  display: inline-block; }
+
+/* line 82, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+a.gi {
+  color: #e1972f; }
+
+/* line 86, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+a.a {
+  color: #b0492f; }
+
+/* line 90, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+a.c {
+  color: #654229; }
+
+/* line 94, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+a.outSource {
+  color: #e1972f;
+  border: #e1972f 2px solid;
+  padding: .7em 2.2em; }
+
+/* line 101, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.extraSpace {
+  margin-right: 10px; }
+
+/* line 105, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.navAction {
+  position: absolute;
+  right: 50px; }
+
+/* #Page Styles
+================================================== */
+/* line 115, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+h1 {
+  text-align: center;
+  font-size: 6.25em;
+  margin: 90px 0 .5em 0;
+  color: #654229;
+  line-height: 1em; }
+
+/* line 124, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+h2 {
+  text-align: center;
+  font-size: 2.38em;
+  color: #e1972f;
+  margin: 1.5em 0 1.5em 0; }
+
+/* line 131, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+h3 {
+  font-size: 1.88em;
+  font-weight: 300;
+  color: #e1972f; }
+
+/* line 139, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+h4 {
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #f7eee8; }
+
+/* line 145, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+h5 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #654229; }
+
+/* line 152, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+h6 {
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #e1972f; }
+
+/* line 159, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+p {
+  font-size: .9em;
+  color: #654229; }
+
+/* Style Guide page
+================================================== */
+/* line 169, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/__layout.scss */
+.guideH1 {
+  text-align: center;
+  font-size: 6.25em;
+  margin: 200px 0 .5em 0;
+  color: #654229;
+  line-height: 1em; }
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+/* line 2, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.header {
+  margin-top: 110px;
+  width: 100%;
+  position: relative;
+  z-index: -1; }
+
+/* line 10, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.header img {
+  width: 100%; }
+
+/* line 13, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.bannergr {
+  background-color: #e1972f;
+  opacity: .9;
+  color: white;
+  padding: .5em 0em .5em 1em; }
+
+/* line 21, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.sections {
+  margin: 0 0 5em 0; }
+
+/* line 24, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.topSections {
+  margin: 7em 0 0 0; }
+
+/* line 28, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.grbg {
+  background-image: url("../images/grbg-bf3a5034.jpg");
+  width: 100%;
+  height: 100%;
+  padding: 10em 0em 1em 0em; }
+
+/* line 36, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.topPadding {
+  padding: 2em 0 0em 0; }
+
+/* line 40, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.founder {
+  border-bottom: #e1972f solid 1px;
+  color: #e1972f;
+  padding-bottom: 1em;
+  margin-bottom: 20px;
+  font-style: italic;
+  width: 400px; }
+
+/* line 49, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.white {
+  color: white;
+  font-size: 0.8em; }
+
+/* line 54, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.contact {
+  color: #654229;
+  padding-bottom: 10px; }
+
+/* line 60, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.contactInfo {
+  background-color: #e1972f;
+  padding: 20px 0 10px 20px; }
+
+/* line 67, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.mj {
+  margin-left: 10px;
+  width: 100%; }
+
+/* line 72, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.bannergip {
+  background-color: #654229;
+  opacity: .9;
+  color: white;
+  padding: .5em 0em .5em 1em; }
+
+/* line 79, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.gamelanPortlandbg {
+  background-image: url("../images/gamelanPortlandbg-dfcc5526.png");
+  width: 100%;
+  height: 100%;
+  padding: 10em 0em 1em 0em;
+  margin: 0 0 0 -10px; }
+
+/* line 87, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.bannergtm {
+  background-color: #b0492f;
+  opacity: .9;
+  color: white;
+  padding: .5em 0em .5em 1em; }
+
+/* line 94, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.gamelanMusicbg {
+  background-image: url("../images/gamelanMusicbg-974491ca.png");
+  width: 100%;
+  height: 100%;
+  padding: 10em 0em 1em 0em;
+  margin: 0 0 0 -10px; }
+
+/* line 102, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.fancyThumbWidth {
+  width: 200px;
+  height: 125px; }
+
+/* line 106, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.fancybox {
+  display: inline-block;
+  text-align: center;
+  margin: 0; }
+
+/* line 113, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_about.scss */
+.videoGalleryWrapper {
+  margin: 0 auto;
+  padding: 3em 0 4em 0; }
+
+/* line 3, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+::-webkit-input-placeholder {
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5; }
+
+/* line 11, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5; }
+
+/* line 19, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5; }
+
+/* line 27, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+:-ms-input-placeholder {
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5; }
+
+/* line 40, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm ::-webkit-input-placeholder {
+  color: #4f4f4f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5;
+  text-align: left; }
+
+/* line 50, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm :-moz-placeholder {
+  /* Firefox 18- */
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5;
+  text-align: left; }
+
+/* line 59, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5;
+  text-align: left; }
+
+/* line 68, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm :-ms-input-placeholder {
+  color: #e1972f;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  opacity: .5;
+  text-align: left; }
+
+/* line 81, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.signUp {
+  background: url("../images/singup_bg-b3f94705.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+  text-align: center;
+  padding: 3em 0 0 0; }
+
+/* line 90, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.signUp h5 {
+  color: #f7eee8;
+  margin: 0 0 2.4em 0; }
+
+/* line 95, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.signUp input {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  padding: 1.35em 0 1.35em 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+
+/* line 103, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+input[type=submit] {
+  width: 10%;
+  background: #e1972f;
+  color: #f7eee8;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  padding: 1em 0 1em 0;
+  vertical-align: top;
+  margin: 0;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -o-transition: 400ms;
+  transition: 400ms; }
+
+/* line 119, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+input[type=submit]:hover {
+  background: #f7eee8;
+  color: #e1972f;
+  border: none; }
+
+/* line 128, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm {
+  width: 100%;
+  text-align: center;
+  margin: auto	0;
+  margin: 2em auto	0;
+  padding: 0 5em; }
+
+/* line 136, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm li {
+  width: 49%;
+  margin-bottom: 9px; }
+
+/* line 141, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm input {
+  background: #e6e6e6;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding: 1em 0 1em 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  margin: 0 0 0 .5em;
+  text-align: left; }
+
+/* line 153, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm .formName {
+  width: 100%;
+  margin: .0 0 0 0; }
+
+/* line 158, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+#foli1 {
+  width: 30%;
+  margin: 0 9px 0 0; }
+
+/* line 163, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+#foli1 .purposeRadio {
+  width: 100%; }
+
+/* line 167, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+#foli5 {
+  width: 68%; }
+
+/* line 171, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+#foli5 textarea {
+  width: 100%;
+  margin: 0 0 0 2px; }
+
+/* line 176, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm .purposeRadio {
+  background: #e6e6e6;
+  text-align: left;
+  padding: 2em;
+  width: 25.5%;
+  display: inline-block;
+  vertical-align: top;
+  color: #4f4f4f;
+  font-size: .7em;
+  height: 200px;
+  margin: 0 -12px 3em 0; }
+
+/* line 189, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.choice {
+  display: inline;
+  width: 100%;
+  font-family: "Merriweather", "cambria", "garamond", "Lucidia Bright", "hoefler text", Georgia, palatino, courier new, serif; }
+
+/* line 195, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm .purposeRadio span {
+  display: block;
+  margin: 0 0 1em 0; }
+
+/* line 200, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm .purposeRadio .radioButton {
+  width: 13px;
+  vertical-align: middle;
+  margin: 5px 5px;
+  display: inline-block; }
+
+/* line 207, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm textarea {
+  width: 49.5%;
+  height: 200px;
+  margin: 0 auto 1em;
+  display: inline-block;
+  background: #e6e6e6;
+  vertical-align: top;
+  border: none;
+  padding: 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none; }
+
+/* line 220, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm .buttons {
+  width: 100%; }
+
+/* line 224, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm input[type=submit] {
+  background: #e1972f;
+  width: 30%;
+  min-width: 150px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 3em;
+  padding: 1em 0; }
+
+/* line 234, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+.contactInfoForm input[type=submit]:hover {
+  background: #f7eee8; }
+
+/* line 239, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+footer {
+  width: 100%;
+  text-align: center;
+  margin: 1.5em 0 1.5em; }
+
+/* line 245, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+footer p {
+  display: inline-block;
+  margin: 0 6em; }
+
+/* line 250, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+footer p a {
+  list-style: none;
+  text-decoration: none; }
+
+/* line 255, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_forms.scss */
+footer p a:visited {
+  color: #B0492F; }
+
+/* line 1, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.header img {
+  width: 100%; }
+
+/* Host & Donate =============================================*/
+/* line 9, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.host, .donate {
+  color: white;
+  padding: .5em 0 .5em 0;
+  text-align: center; }
+
+/* line 16, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.host {
+  background-color: #e1972f;
+  opacity: .9; }
+
+/* line 21, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.donate {
+  background-color: #b0492f;
+  opacity: .9; }
+
+/* line 28, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.host a {
+  color: white;
+  text-decoration: none; }
+
+/* line 33, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.donate a {
+  color: white;
+  text-decoration: none; }
+
+/* line 39, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.overlay1 {
+  background-image: url("../images/hostaworkshop-60a78087.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 21em 0em 4em 0em;
+  background-size: cover;
+  margin-bottom: 2em; }
+
+/* line 50, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.overlay2 {
+  background-image: url("../images/donate-733e3e99.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 21em 0em 4em 0em;
+  background-size: cover;
+  margin-bottom: 2em; }
+
+/* line 63, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.eventButton {
+  text-align: center;
+  padding: .5em .9em .5em .9em;
+  margin: auto;
+  width: 8em;
+  border: solid 1px #e1972f;
+  margin-bottom: 5em; }
+
+/* line 73, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.eventButton a {
+  color: #e1972f;
+  text-decoration: none; }
+
+/* Concert & Workshop ===========================================*/
+/* line 82, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.info {
+  width: 460px;
+  height: 315px;
+  padding: 1em 0 0 1em;
+  margin-bottom: 10px; }
+
+/* line 89, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.workshopinfo {
+  background-color: #e1972f; }
+
+/* line 93, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.concertinfo {
+  background-color: #b0492f; }
+
+/* line 97, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.location {
+  font-style: italic; }
+
+/* line 101, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.eventtitle {
+  border-bottom: 1px solid white;
+  width: 410px;
+  line-height: 1.5em; }
+
+/* line 107, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.info h6 {
+  color: white; }
+
+/* line 111, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.info h3 {
+  color: white;
+  width: 93%;
+  height: 160px;
+  line-height: 40px; }
+
+/* line 118, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.moredetail {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em; }
+
+/* line 125, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* Feedback ======================================================*/
+/* line 132, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.givefeedback {
+  width: 80%;
+  margin: 0 auto;
+  clear: both; }
+
+/* line 138, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.givefeedback h3 {
+  text-align: center; }
+
+/* line 142, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.givefeedback h6 {
+  text-align: center;
+  border-bottom: #e1972f 1px solid;
+  width: 17em;
+  margin: auto;
+  margin-bottom: 1em;
+  line-height: 1.5em; }
+
+/* line 152, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_getinvolved.scss */
+.givefeedback p {
+  text-align: center; }
+
+/* line 10, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.home {
+  background: url("../images/bg_home-6cb75bf0.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/* line 18, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeGetInvolved {
+  background-color: rgba(112, 63, 34, 0.9); }
+
+/* line 22, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeAbout {
+  background-color: rgba(201, 71, 44, 0.9); }
+
+/* line 26, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeContact {
+  background-color: rgba(245, 151, 32, 0.9); }
+
+/* line 30, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.callToAction {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30%; }
+
+/* line 37, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.navButton {
+  display: inline-block;
+  border: 1px solid #f7eee8;
+  width: 45%;
+  min-width: 170px;
+  margin: .3em .3em;
+  text-align: center;
+  padding: 1.5em 0 0 0; }
+
+/* line 48, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.logo {
+  width: 43%;
+  position: absolute;
+  top: 23%;
+  left: 2%; }
+
+/* line 55, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.logo img {
+  width: 100%; }
+
+/* line 60, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.missionStatement {
+  position: absolute;
+  bottom: 30%;
+  right: 50px;
+  width: 30%;
+  text-align: right; }
+
+/* line 68, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeNav {
+  width: 65%;
+  position: absolute;
+  left: 45px;
+  top: 35px; }
+
+/* line 75, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeNavBox {
+  display: inline-block;
+  width: 30%;
+  min-width: 250px;
+  margin: 0;
+  text-align: center;
+  vertical-align: top;
+  padding: 1.5em 0 0em 0; }
+
+/* line 86, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.navButton p {
+  font-size: 1.6em;
+  color: #f7eee8;
+  text-transform: uppercase; }
+
+/* line 92, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.missionStatement p {
+  font-size: 1em;
+  color: #f7eee8;
+  line-height: 2em; }
+
+/* line 98, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.name {
+  font-style: italic;
+  font-weight: 700; }
+
+/* line 103, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.name span {
+  font-weight: 300;
+  font-style: normal; }
+
+/* line 108, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeNavBox p {
+  color: #f7eee8;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+/* line 115, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_home.scss */
+.homeNavBox:hover p {
+  opacity: .3; }
+
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+/* line 13, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  vertical-align: top; }
+
+/* line 21, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8020; }
+
+/* line 28, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-skin {
+  position: relative;
+  background: #f9f9f9;
+  color: #444;
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+/* line 38, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-opened {
+  z-index: 8030; }
+
+/* line 42, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-opened .fancybox-skin {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
+
+/* line 48, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-outer, .fancybox-inner {
+  position: relative; }
+
+/* line 52, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-inner {
+  overflow: hidden;
+  margin: 0px; }
+
+/* line 57, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-type-iframe .fancybox-inner {
+  -webkit-overflow-scrolling: touch; }
+
+/* line 61, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-error {
+  color: #444;
+  font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 15px;
+  white-space: nowrap; }
+
+/* line 69, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-image, .fancybox-iframe {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+/* line 75, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-image {
+  max-width: 100%;
+  max-height: 100%; }
+
+/* line 80, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background-image: url("fancybox_sprite-17df19f9.png"); }
+
+/* line 84, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+#fancybox-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  background-position: 0 -108px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 8060; }
+
+/* line 96, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+#fancybox-loading div {
+  width: 44px;
+  height: 44px;
+  background: url("fancybox_loading-1a755fb2.gif") center center no-repeat; }
+
+/* line 102, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 8040; }
+
+/* line 112, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-nav {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent url("blank-2daeaa8b.gif");
+  /* helps IE */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 8040; }
+
+/* line 124, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-prev {
+  left: 0; }
+
+/* line 128, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-next {
+  right: 0; }
+
+/* line 132, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-nav span {
+  position: absolute;
+  top: 50%;
+  width: 36px;
+  height: 34px;
+  margin-top: -18px;
+  cursor: pointer;
+  z-index: 8040;
+  visibility: hidden; }
+
+/* line 143, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-prev span {
+  left: 10px;
+  background-position: 0 -36px; }
+
+/* line 148, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-next span {
+  right: 10px;
+  background-position: 0 -72px; }
+
+/* line 153, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-nav:hover span {
+  visibility: visible; }
+
+/* line 157, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-tmp {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  visibility: hidden;
+  max-width: 99999px;
+  max-height: 99999px;
+  overflow: visible !important; }
+
+/* Overlay helper */
+/* line 169, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-lock {
+  overflow: hidden !important;
+  width: auto; }
+
+/* line 174, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-lock body {
+  overflow: hidden !important; }
+
+/* line 178, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-lock-test {
+  overflow-y: hidden !important; }
+
+/* line 182, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background: url("fancybox_overlay-b3a4ee64.png"); }
+
+/* line 192, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-overlay-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+/* line 198, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-lock .fancybox-overlay {
+  overflow: auto;
+  overflow-y: scroll; }
+
+/* Title helper */
+/* line 207, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-title {
+  visibility: hidden;
+  font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  text-shadow: none;
+  z-index: 8050; }
+
+/* line 215, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-opened .fancybox-title {
+  visibility: visible; }
+
+/* line 219, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-title-float-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-bottom: -35px;
+  z-index: 8050;
+  text-align: center; }
+
+/* line 228, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-title-float-wrap .child {
+  display: inline-block;
+  margin-right: -100%;
+  padding: 2px 20px;
+  background: transparent;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 0 1px 2px #222;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 24px;
+  white-space: nowrap; }
+
+/* line 244, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-title-outside-wrap {
+  position: relative;
+  margin-top: 10px;
+  color: #fff; }
+
+/* line 250, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-title-inside-wrap {
+  padding-top: 10px; }
+
+/* line 254, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+.fancybox-title-over-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8); }
+
+/*Retina graphics!*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 269, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url("fancybox_sprite@2x-30c58913.png");
+    background-size: 44px 152px;
+    /*The size of the normal image, half the size of the hi-res image*/ }
+
+  /* line 274, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_jquery.fancybox.scss */
+  #fancybox-loading div {
+    background-image: url("fancybox_loading@2x-273b1234.gif");
+    background-size: 24px 24px;
+    /*The size of the normal image, half the size of the hi-res image*/ } }
+@media only screen and (max-width: 1224px) {
+  /* line 4, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #menu {
+    display: none; }
+
+  /* line 9, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .slicknav_menu {
+    display: none; }
+
+  /* line 13, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .mobileNav {
+    display: none; } }
+@media only screen and (max-width: 1224px) {
+  /* Index =============================================*/
+  /* line 23, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navButton {
+    min-width: 130px; }
+
+  /* line 27, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navButton p {
+    font-size: 1.3em; }
+
+  /* line 32, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox {
+    min-width: 200px; }
+
+  /* line 36, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox p {
+    font-size: 1.3em; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Index =======================================*/
+  /* line 47, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox {
+    display: inline-block;
+    width: 30%;
+    min-width: 33%;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+    padding: 2em 0 1em; }
+
+  /* line 57, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .callToAction {
+    position: absolute;
+    top: inherit;
+    right: 0;
+    bottom: 6em;
+    width: 56%;
+    display: inline; }
+
+  /* line 66, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navButton p {
+    font-size: 1.2em;
+    color: #f7eee8;
+    text-transform: uppercase; }
+
+  /* line 72, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .logo {
+    width: 37%;
+    position: absolute;
+    top: 8%;
+    left: 5%; }
+
+  /* line 79, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .missionStatement {
+    position: absolute;
+    top: 22%;
+    right: 30px;
+    width: 50%; }
+
+  /* line 86, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNav {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: inherit;
+    min-width: 800px; }
+
+  /* line 96, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox p {
+    font-size: 1.3em; }
+
+  /* Type =============================================*/
+  /* line 103, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h1 {
+    font-size: 4em; }
+
+  /* line 107, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h2 {
+    font-size: 2em; }
+
+  /* line 111, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h3 {
+    font-size: 1.6em; }
+
+  /* line 115, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h5 {
+    font-size: 1.2em; }
+
+  /* line 119, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h6 {
+    font-size: 1em; }
+
+  /* Get Involved ======================================*/
+  /* line 125, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .info {
+    width: 350px; }
+
+  /* line 129, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .overlay1, .overlay2 {
+    padding: 14em 0 4em;
+    margin-bottom: 15px; }
+
+  /* line 134, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .info {
+    height: 300px; }
+
+  /* line 138, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .eventtitle {
+    width: 325px; }
+
+  /* Contact Page ======================================*/
+  /* line 143, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #foli5 {
+    width: 67%; }
+
+  /* footer ============================================*/
+  /* line 149, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  footer p {
+    margin: 0 1em 0 0; }
+
+  /* About =============================================*/
+  /* line 155, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .founder {
+    width: 370px; }
+
+  /* line 158, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .mj {
+    width: 100%; } }
+@media only screen and (max-width: 767px) {
+  /* line 169, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .nav {
+    display: none; }
+
+  /* line 173, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #menu {
+    display: none; }
+
+  /* line 177, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .slicknav_menu {
+    display: block; } }
+@media only screen and (min-width: 677px) and (max-width: 767px) {
+  /* line 190, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .header {
+    margin-top: 0px; }
+
+  /* line 194, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .container {
+    width: 100%;
+    padding: 0 2em;
+    margin: 0; }
+
+  /* line 199, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .mj {
+    margin-left: 0px;
+    width: 100%; }
+
+  /* line 203, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .gamelanMusicbg {
+    margin: 0px; }
+
+  /* line 207, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .gamelanPortlandbg {
+    margin: 0px; }
+
+  /* Index =============================================*/
+  /* line 214, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox {
+    display: inline-block;
+    width: 32.94%;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+    padding: 2em 0 1em; }
+
+  /* line 223, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .callToAction {
+    position: absolute;
+    top: inherit;
+    right: 0;
+    width: 56%;
+    bottom: 6em;
+    display: inline; }
+
+  /* line 232, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navButton p {
+    font-size: 1.2em;
+    color: #f7eee8;
+    text-transform: uppercase; }
+
+  /* line 238, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .logo {
+    width: 34%;
+    margin: 2em 0 0 1em;
+    position: absolute;
+    top: 15%;
+    left: 5%; }
+
+  /* line 246, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .missionStatement {
+    position: absolute;
+    top: 21%;
+    right: 30px;
+    width: 50%; }
+
+  /* line 253, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNav {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: inherit; }
+
+  /* line 262, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox p {
+    font-size: 1.3em; }
+
+  /* line 267, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .logoTop {
+    margin: 0 4em 0 22px;
+    left: 0; }
+
+  /* line 272, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navPages {
+    right: 277px;
+    top: 40px; }
+
+  /* line 277, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navAction {
+    bottom: 16px;
+    right: 28px; }
+
+  /* Type =============================================*/
+  /* line 284, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h1 {
+    font-size: 4em; }
+
+  /* line 288, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h2 {
+    font-size: 2em; }
+
+  /* line 292, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h3 {
+    font-size: 1.6em; }
+
+  /* line 296, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h5 {
+    font-size: 1.2em; }
+
+  /* line 300, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h6 {
+    font-size: 1em; }
+
+  /* Contact Page ======================================*/
+  /* line 305, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  /* line 311, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm li {
+    width: 100%;
+    margin: 0; }
+
+  /* line 316, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #foli1 {
+    width: 100%;
+    margin: 0; }
+
+  /* line 321, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #foli5 {
+    width: 100%;
+    margin: 0 0 1em -6px; }
+
+  /* line 327, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  fieldset {
+    margin: 0; }
+
+  /* line 331, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm input[type=text] {
+    display: block;
+    width: 100%;
+    margin: 0 0 .5em 0; }
+
+  /* line 337, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm .formName {
+    display: block;
+    width: 100%;
+    margin: 0 0 .5em 0; }
+
+  /* line 343, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm .purposeRadio {
+    display: block;
+    margin: 0 0 .5em 0;
+    width: 100%;
+    height: auto; }
+
+  /* line 350, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm textarea {
+    width: 100%; }
+
+  /* line 354, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm input[type=submit] {
+    width: 32%; }
+
+  /* Get Involved =======================================*/
+  /* line 360, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .info {
+    height: 300px; } }
+@media only screen and (min-width: 320px) and (max-width: 676px) {
+  /* line 369, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .mobileNav {
+    display: block;
+    padding: 0.7em;
+    margin: 0; }
+
+  /* line 374, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .home {
+    background-position: 100% 0; }
+
+  /* line 379, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeGetInvolved {
+    background-color: #703f22; }
+
+  /* line 383, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeAbout {
+    background-color: #c9472c; }
+
+  /* line 387, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeContact {
+    background-color: #f59720; }
+
+  /* line 391, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .header {
+    margin-top: 0px; }
+
+  /* line 395, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .container {
+    width: 100%; }
+
+  /* line 400, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .logoTop {
+    margin: 0 4em 0 22px;
+    left: 0; }
+
+  /* Type ================================================*/
+  /* line 408, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h1 {
+    font-size: 3em;
+    margin-top: 50px; }
+
+  /* line 413, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h2 {
+    font-size: 2em; }
+
+  /* line 417, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h3 {
+    font-size: 1.5em;
+    text-align: center; }
+
+  /* line 422, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h5 {
+    font-size: .8em; }
+
+  /* line 426, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  h6 {
+    font-size: 1em; }
+
+  /* About =============================================*/
+  /* line 432, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .bannergr {
+    padding: .5em 0; }
+
+  /* Get Involved =======================================*/
+  /* line 438, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .moredetail {
+    width: 90%; }
+
+  /* Mailing List =======================================*/
+  /* line 444, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .signUp input {
+    width: 75%; }
+
+  /* line 448, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  input[type=submit] {
+    width: 25%;
+    padding: 0.7em 0 0.7em 0; }
+
+  /* line 453, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .signUp {
+    padding: 3em 0 1em;
+    height: 360px; }
+
+  /* line 458, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .containerInfoForminput {
+    width: 100%; }
+
+  /* Nav =============================================*/
+  /* line 464, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navPages {
+    right: -63px;
+    top: 17px; }
+
+  /* line 469, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navAction {
+    bottom: -6px;
+    right: 18px; }
+
+  /* Index =============================================*/
+  /* line 477, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .missionStatement {
+    position: inherit;
+    width: 100%;
+    padding: 0 2em;
+    margin: 0 0 2em;
+    right: inherit;
+    bottom: inherit; }
+
+  /* line 486, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .missionStatement p {
+    font-size: .8em;
+    text-align: left; }
+
+  /* line 490, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navButton {
+    min-width: 100px;
+    width: 49.3%;
+    margin: 0 auto; }
+
+  /* line 496, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+    padding: 1em 0 0; }
+
+  /* line 505, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .callToAction {
+    position: inherit;
+    width: 100%;
+    display: inline;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: inherit; }
+
+  /* line 515, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .navButton p {
+    font-size: 1em;
+    color: #f7eee8;
+    text-transform: uppercase; }
+
+  /* line 521, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .logo {
+    position: inherit;
+    width: 40%;
+    margin: 0 auto 1em;
+    top: inherit; }
+
+  /* line 528, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .logo img {
+    width: 100%;
+    padding-top: 1em; }
+
+  /* line 534, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNav {
+    width: 100%;
+    position: inherit;
+    bottom: inherit;
+    right: inherit;
+    top: inherit;
+    left: inherit; }
+
+  /* line 543, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .homeNavBox p {
+    font-size: 1em; }
+
+  /* Get Involved ========================================*/
+  /* line 550, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .info {
+    width: 90%;
+    height: 300px; }
+
+  /* line 556, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .info h3 {
+    text-align: left; }
+
+  /* line 560, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .overlay1, .overlay2 {
+    padding: 10em 0em 4em 0em;
+    margin-bottom: 1em; }
+
+  /* line 565, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .givefeedback {
+    width: 100%; }
+
+  /* line 569, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .eventtitle {
+    width: 265px; }
+
+  /* Contact =============================================*/
+  /* line 575, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  /* line 581, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm li {
+    width: 100%;
+    margin: 0; }
+
+  /* line 586, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #foli1 {
+    width: 100%;
+    margin: 0; }
+
+  /* line 591, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  #foli5 {
+    width: 100%;
+    margin: 0 0 1em -6px; }
+
+  /* line 597, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  fieldset {
+    margin: 0; }
+
+  /* line 601, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm input[type=text] {
+    display: block;
+    width: 100%;
+    margin: 0 0 .5em 0; }
+
+  /* line 607, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm .formName {
+    display: block;
+    width: 100%;
+    margin: 0 0 .5em 0; }
+
+  /* line 613, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm .purposeRadio {
+    display: block;
+    margin: 0 0 .5em 0;
+    width: 100%;
+    height: auto; }
+
+  /* line 620, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm textarea {
+    width: 100%; }
+
+  /* line 624, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .contactInfoForm input[type=submit] {
+    width: 32%; }
+
+  /* line 628, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .conduct {
+    padding-top: 0px;
+    margin-top: 0px; }
+
+  /* line 633, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .conductMobile {
+    margin-bottom: 0px; }
+
+  /* About =============================================*/
+  /* line 639, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .founder {
+    text-align: center;
+    width: 100%; }
+
+  /* line 644, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .mj {
+    width: 100%;
+    margin-left: 0px; }
+
+  /* line 649, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .gamelanPortlandbg {
+    margin: 0px;
+    width: 100%; }
+
+  /* line 654, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .bannergip {
+    text-align: center;
+    margin: 0;
+    padding: .5em 0em .5em 0em; }
+
+  /* line 660, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .videoGalleryWrapper img {
+    max-width: 300px; }
+
+  /* line 664, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .atopPadding {
+    padding-top: 0px; }
+
+  /* line 668, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .bannergtm {
+    text-align: center;
+    margin: 0;
+    padding: .5em 0em .5em 0em; }
+
+  /* line 674, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  .gamelanMusicbg {
+    margin: 0px;
+    width: 100%; }
+
+  /* footer =============================================*/
+  /* line 681, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_mediaqueries.scss */
+  footer p {
+    display: block;
+    margin: 0 4em; } }
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+/* #Base 960 Grid
+================================================== */
+/* line 25, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0; }
+
+/* line 27, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .column,
+.container .columns {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+/* line 28, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.row {
+  margin-bottom: 20px; }
+
+/* Nested Column Classes */
+/* line 31, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.column.alpha, .columns.alpha {
+  margin-left: 0; }
+
+/* line 32, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.column.omega, .columns.omega {
+  margin-right: 0; }
+
+/* Base Grid */
+/* line 36, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .one.column,
+.container .one.columns {
+  width: 40px; }
+
+/* line 37, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .two.columns {
+  width: 100px; }
+
+/* line 38, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .three.columns {
+  width: 160px; }
+
+/* line 39, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .four.columns {
+  width: 220px; }
+
+/* line 40, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .five.columns {
+  width: 280px; }
+
+/* line 41, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .six.columns {
+  width: 340px; }
+
+/* line 42, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .seven.columns {
+  width: 400px; }
+
+/* line 43, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .eight.columns {
+  width: 460px; }
+
+/* line 44, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .nine.columns {
+  width: 520px; }
+
+/* line 45, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .ten.columns {
+  width: 580px; }
+
+/* line 46, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .eleven.columns {
+  width: 640px; }
+
+/* line 47, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .twelve.columns {
+  width: 700px; }
+
+/* line 48, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .thirteen.columns {
+  width: 760px; }
+
+/* line 49, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .fourteen.columns {
+  width: 820px; }
+
+/* line 50, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .fifteen.columns {
+  width: 880px; }
+
+/* line 51, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .sixteen.columns {
+  width: 940px; }
+
+/* line 53, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .one-third.column {
+  width: 300px; }
+
+/* line 54, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .two-thirds.column {
+  width: 620px; }
+
+/* Offsets */
+/* line 57, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-one {
+  padding-left: 60px; }
+
+/* line 58, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-two {
+  padding-left: 120px; }
+
+/* line 59, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-three {
+  padding-left: 180px; }
+
+/* line 60, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-four {
+  padding-left: 240px; }
+
+/* line 61, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-five {
+  padding-left: 300px; }
+
+/* line 62, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-six {
+  padding-left: 360px; }
+
+/* line 63, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-seven {
+  padding-left: 420px; }
+
+/* line 64, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-eight {
+  padding-left: 480px; }
+
+/* line 65, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-nine {
+  padding-left: 540px; }
+
+/* line 66, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-ten {
+  padding-left: 600px; }
+
+/* line 67, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-eleven {
+  padding-left: 660px; }
+
+/* line 68, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-twelve {
+  padding-left: 720px; }
+
+/* line 69, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-thirteen {
+  padding-left: 780px; }
+
+/* line 70, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-fourteen {
+  padding-left: 840px; }
+
+/* line 71, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container .offset-by-fifteen {
+  padding-left: 900px; }
+
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 81, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container {
+    width: 768px; }
+
+  /* line 83, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .column,
+  .container .columns {
+    margin-left: 10px;
+    margin-right: 10px; }
+
+  /* line 84, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .column.alpha, .columns.alpha {
+    margin-left: 0;
+    margin-right: 10px; }
+
+  /* line 85, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .column.omega, .columns.omega {
+    margin-right: 0;
+    margin-left: 10px; }
+
+  /* line 86, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0; }
+
+  /* line 89, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .one.column,
+  .container .one.columns {
+    width: 28px; }
+
+  /* line 90, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .two.columns {
+    width: 76px; }
+
+  /* line 91, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .three.columns {
+    width: 124px; }
+
+  /* line 92, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .four.columns {
+    width: 172px; }
+
+  /* line 93, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .five.columns {
+    width: 220px; }
+
+  /* line 94, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .six.columns {
+    width: 268px; }
+
+  /* line 95, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .seven.columns {
+    width: 316px; }
+
+  /* line 96, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .eight.columns {
+    width: 364px; }
+
+  /* line 97, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .nine.columns {
+    width: 412px; }
+
+  /* line 98, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .ten.columns {
+    width: 460px; }
+
+  /* line 99, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .eleven.columns {
+    width: 508px; }
+
+  /* line 100, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .twelve.columns {
+    width: 556px; }
+
+  /* line 101, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .thirteen.columns {
+    width: 604px; }
+
+  /* line 102, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .fourteen.columns {
+    width: 652px; }
+
+  /* line 103, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .fifteen.columns {
+    width: 700px; }
+
+  /* line 104, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .sixteen.columns {
+    width: 748px; }
+
+  /* line 106, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .one-third.column {
+    width: 236px; }
+
+  /* line 107, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .two-thirds.column {
+    width: 492px; }
+
+  /* Offsets */
+  /* line 110, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-one {
+    padding-left: 48px; }
+
+  /* line 111, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-two {
+    padding-left: 96px; }
+
+  /* line 112, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-three {
+    padding-left: 144px; }
+
+  /* line 113, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-four {
+    padding-left: 192px; }
+
+  /* line 114, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-five {
+    padding-left: 240px; }
+
+  /* line 115, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-six {
+    padding-left: 288px; }
+
+  /* line 116, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-seven {
+    padding-left: 336px; }
+
+  /* line 117, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-eight {
+    padding-left: 384px; }
+
+  /* line 118, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-nine {
+    padding-left: 432px; }
+
+  /* line 119, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-ten {
+    padding-left: 480px; }
+
+  /* line 120, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-eleven {
+    padding-left: 528px; }
+
+  /* line 121, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-twelve {
+    padding-left: 576px; }
+
+  /* line 122, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-thirteen {
+    padding-left: 624px; }
+
+  /* line 123, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-fourteen {
+    padding-left: 672px; }
+
+  /* line 124, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-fifteen {
+    padding-left: 720px; } }
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+  /* line 134, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container {
+    width: 100%;
+    padding: 0 2em; }
+
+  /* line 136, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .columns,
+  .container .column {
+    margin: 0; }
+
+  /* line 156, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .one.column,
+  .container .one.columns,
+  .container .two.columns,
+  .container .three.columns,
+  .container .four.columns,
+  .container .five.columns,
+  .container .six.columns,
+  .container .seven.columns,
+  .container .eight.columns,
+  .container .nine.columns,
+  .container .ten.columns,
+  .container .eleven.columns,
+  .container .twelve.columns,
+  .container .thirteen.columns,
+  .container .fourteen.columns,
+  .container .fifteen.columns,
+  .container .sixteen.columns,
+  .container .one-third.column,
+  .container .two-thirds.column {
+    width: 100%; }
+
+  /* Offsets */
+  /* line 173, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .offset-by-one,
+  .container .offset-by-two,
+  .container .offset-by-three,
+  .container .offset-by-four,
+  .container .offset-by-five,
+  .container .offset-by-six,
+  .container .offset-by-seven,
+  .container .offset-by-eight,
+  .container .offset-by-nine,
+  .container .offset-by-ten,
+  .container .offset-by-eleven,
+  .container .offset-by-twelve,
+  .container .offset-by-thirteen,
+  .container .offset-by-fourteen,
+  .container .offset-by-fifteen {
+    padding-left: 0; } }
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 184, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container {
+    width: 100%;
+    padding: 0 3em; }
+
+  /* line 186, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .columns,
+  .container .column {
+    margin: 0; }
+
+  /* line 206, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+  .container .one.column,
+  .container .one.columns,
+  .container .two.columns,
+  .container .three.columns,
+  .container .four.columns,
+  .container .five.columns,
+  .container .six.columns,
+  .container .seven.columns,
+  .container .eight.columns,
+  .container .nine.columns,
+  .container .ten.columns,
+  .container .eleven.columns,
+  .container .twelve.columns,
+  .container .thirteen.columns,
+  .container .fourteen.columns,
+  .container .fifteen.columns,
+  .container .sixteen.columns,
+  .container .one-third.column,
+  .container .two-thirds.column {
+    width: 100%; } }
+/* #Clearing
+================================================== */
+/* Self Clearing Goodness */
+/* line 214, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+/* line 221, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* line 229, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.row:after,
+.clearfix:after {
+  clear: both; }
+
+/* line 232, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.row,
+.clearfix {
+  zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+/* line 236, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_skeleton.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/*
+    Mobile Menu Core Style
+*/
+/* line 6, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer; }
+
+/* line 7, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left; }
+
+/* line 8, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu .slicknav_icon {
+  float: left;
+  margin: 0.188em 0 0 0.438em; }
+
+/* line 9, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu .slicknav_no-text {
+  margin: 0; }
+
+/* line 10, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.125em;
+  height: 0.125em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+
+/* line 11, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.188em; }
+
+/* line 12, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav {
+  clear: both; }
+
+/* line 14, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav ul,
+.slicknav_nav li {
+  display: block; }
+
+/* line 15, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em; }
+
+/* line 16, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_item {
+  display: block;
+  cursor: pointer; }
+
+/* line 17, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav a {
+  display: block; }
+
+/* line 18, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_item a {
+  display: inline; }
+
+/* line 20, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu:before,
+.slicknav_menu:after {
+  content: " ";
+  display: table; }
+
+/* line 21, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu:after {
+  clear: both; }
+
+/* IE6/7 support */
+/* line 23, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu {
+  *zoom: 1; }
+
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+/* line 31, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu {
+  font-size: 16px; }
+
+/* Button */
+/* line 36, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #e1972f; }
+
+/* Button Text */
+/* line 46, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu .slicknav_menutxt {
+  color: #FFF;
+  font-weight: bold; }
+
+/* Button Lines */
+/* line 52, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff; }
+
+/* line 56, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_menu {
+  background: #f7eee8;
+  opacity: .8;
+  padding: 5px; }
+
+/* line 61, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav {
+  color: #f7eee8;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875em; }
+
+/* line 67, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav, .slicknav_nav ul {
+  list-style: none;
+  overflow: hidden; }
+
+/* line 71, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav ul {
+  padding: 0;
+  margin: 0 0 0 20px; }
+
+/* line 75, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_item {
+  padding: 5px 10px;
+  margin: 2px 5px; }
+
+/* line 79, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav a {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  text-decoration: none;
+  color: #e1972f; }
+
+/* line 85, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0; }
+
+/* line 89, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_item:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #e1972f;
+  color: #fff; }
+
+/* line 96, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav a:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #b0492f;
+  color: #222; }
+
+/* line 103, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/_partials/_slicknav.scss */
+.slicknav_nav .slicknav_txtnode {
+  margin-left: 15px; }
+
+@media only screen and (min-width: 677px) and (max-width: 767px) {
+  /* line 13, /Users/SJYun/Desktop/gamelan_dev/source/stylesheets/all.scss */
+  .container {
+    width: 100%;
+    padding: 0 2em;
+    margin: 0; } }
