@@ -366,6 +366,13 @@ and (max-width : 767px) {
 @media only screen 
 and (min-width : 320px) 
 and (max-width : 676px) {
+
+
+.fancyThumbWidth{
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+}
 	.mobileNav{
 		display: block;
 		padding: 0.7em;
